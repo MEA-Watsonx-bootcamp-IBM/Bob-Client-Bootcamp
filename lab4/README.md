@@ -1,4 +1,4 @@
-# Lab 6: Creating MCP Servers and Custom Modes
+# Lab 4: Creating MCP Servers and Custom Modes
 
 ## Overview
 
