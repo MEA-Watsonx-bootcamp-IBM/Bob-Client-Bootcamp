@@ -408,8 +408,9 @@ graph LR
 Lab 1: Building          ████████████░░░░░░░░ 45 min
 Lab 2: Security          ████████████░░░░░░░░ 45 min
 Lab 3: Translation       ████████████░░░░░░░░ 45 min
+Lab 4: MCP Server        ████████████░░░░░░░░ 45 min
                          ─────────────────────
-Total Learning Time:     ████████████████████ 2h 15min
+Total Learning Time:     ████████████████████ 3h
 ```
 
 ### Competency Matrix
