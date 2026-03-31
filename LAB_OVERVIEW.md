@@ -10,13 +10,9 @@ graph TB
     
     Lab2 --> Intermediate[Intermediate Track]
     Intermediate --> Lab3[Lab 3: Code Translation]
-    Lab3 --> Lab4[Lab 4: BobShell & CLI]
+    Lab3 --> Lab4[Lab 4: MCP Server & Custom Modes]
     
-    Lab4 --> Advanced[Advanced Track]
-    Advanced --> Lab5[Lab 5: Java Modernization]
-    Lab5 --> Lab6[Lab 6: MCP Server & Custom Modes]
-    
-    Lab6 --> Complete[Complete: Bob Mastery]
+    Lab4 --> Complete[Complete: Bob Mastery]
     
     Lab1 --> L1A[Learn: Modes]
     Lab1 --> L1B[Learn: Auto-approvals]
