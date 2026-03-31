@@ -56,7 +56,7 @@ Lab 1 Timeline (45 minutes)
 Bob has three distinct modes, each optimized for different tasks:
 
 > **🎯 Bob Differentiator: [Customizable Modes](../bob-differentiators.md#1--extensible-architecture)**
-> Bob's mode system is one of its key differentiators. Unlike other AI assistants, Bob allows you to create custom modes tailored to your team's specific workflows. The three built-in modes you'll use in this lab are just the beginning—you can create specialized modes for code review, documentation, architecture design, and more. Learn more in [Lab 6](../lab6/README.md).
+> Bob's mode system is one of its key differentiators. Unlike other AI assistants, Bob allows you to create custom modes tailored to your team's specific workflows. The three built-in modes you'll use in this lab are just the beginning—you can create specialized modes for code review, documentation, architecture design, and more.
 
 #### 🎯 Plan Mode
 **When to use**: Planning, designing, strategizing
