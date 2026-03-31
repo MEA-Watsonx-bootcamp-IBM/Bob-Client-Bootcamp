@@ -62,34 +62,8 @@ bootcamp_intro_lab/
 │   │   └── package.json
 │   └── assets/
 │       └── translation-guide.md      # Language comparison notes
-├── lab4/                              # BobShell & CLI
+├── lab4/                              # MCP Server & Custom Modes
 │   ├── README.md                      # Lab 4 instructions
-│   ├── examples/
-│   │   ├── basic-commands.md         # CLI reference
-│   │   ├── code-generation.md        # Generation patterns
-│   │   └── analysis-examples.md      # Analysis techniques
-│   ├── scripts/
-│   │   ├── code-review.sh            # Automated review
-│   │   ├── refactor-batch.sh         # Batch refactoring
-│   │   └── generate-docs.sh          # Doc generation
-│   └── ci-cd/
-│       ├── github-actions.yml        # GitHub workflow
-│       ├── gitlab-ci.yml             # GitLab config
-│       └── jenkins-pipeline.txt      # Jenkins pipeline
-├── lab5/                              # Java Modernization
-│   ├── README.md                      # Lab 5 instructions
-│   ├── legacy/                        # Java 8 code
-│   │   └── src/main/java/com/example/ecommerce/
-│   │       └── model/
-│   │           ├── Product.java
-│   │           └── Payment.java
-│   ├── modernized/                    # Java 17/21 code
-│   │   └── src/main/java/com/example/ecommerce/
-│   │       └── model/
-│   └── migration-guide/
-│       └── modernization-steps.md
-├── lab6/                              # MCP Server & Custom Modes
-│   ├── README.md                      # Lab 6 instructions
 │   ├── mcp-server/
 │   │   ├── package.json
 │   │   ├── server.js                 # MCP server implementation
@@ -321,133 +295,8 @@ Documentation for:
 Common issues and solutions:
 - Installation problems
 - Mode switching issues
-- MCP server connection errors
-- Code execution errors
-## Lab 4: BobShell & Command Line Usage
-
-### Learning Objectives
-- Master BobShell command-line interface
-- Automate development workflows with scripts
-- Integrate Bob into CI/CD pipelines
-- Use Bob for batch operations
-- Understand when to use CLI vs UI
-
-### Architecture
-
-```mermaid
-graph TB
-    A[Developer] -->|Commands| B[BobShell CLI]
-    B -->|Executes| C[Bob Core]
-    C -->|Generates| D[Code/Docs]
-    B -->|Integrates| E[CI/CD Pipeline]
-    E -->|Automated Tasks| C
-    F[Scripts] -->|Batch Operations| B
-    G[GitHub Actions] -->|Triggers| E
-    H[GitLab CI] -->|Triggers| E
-    I[Jenkins] -->|Triggers| E
-```
-
-### Step-by-Step Flow
-
-1. **BobShell Basics** (15 min)
-   - Installation and configuration
-   - Basic command syntax
-   - Interactive vs non-interactive modes
-   - Output formatting options
-
-2. **Code Generation** (15 min)
-   - Generate files from templates
-   - Create boilerplate code
-   - Scaffold project structures
-   - Use prompts for automation
-
-3. **Code Analysis** (15 min)
-   - Analyze code quality
-   - Find bugs and issues
-   - Generate documentation
-   - Review code patterns
-
-4. **Automation Scripts** (20 min)
-   - Create code review script
-   - Build batch refactoring script
-   - Develop documentation generator
-   - Handle errors and edge cases
-
-5. **CI/CD Integration** (25 min)
-   - GitHub Actions workflow
-   - GitLab CI configuration
-   - Jenkins pipeline
-   - Automated quality checks
-
-### Key Bob Features Demonstrated
-- **BobShell CLI**: Command-line automation
-- **Batch Operations**: Processing multiple files
-- **CI/CD Integration**: Automated workflows
-- **Script Development**: Reusable automation
-- **Pipeline Integration**: DevOps workflows
-
-## Lab 5: Java Application Modernization
-
-### Learning Objectives
-- Modernize legacy Java 8 code to Java 17/21
-- Use Bob for large-scale refactoring
-- Apply modern Java features (records, sealed classes, pattern matching)
-- Understand migration strategies
-- Use both UI and CLI approaches
-
-### Architecture
-
-```mermaid
-graph TB
-    A[Legacy Java 8 Code] -->|Analysis| B[Bob Plan Mode]
-    B -->|Strategy| C[Migration Plan]
-    C -->|Implementation| D[Bob Code Mode]
-    D -->|Refactoring| E[Modern Java 17/21]
-    E -->|Testing| F[Verification]
-    G[UI Approach] -->|Interactive| D
-    H[CLI Approach] -->|Automated| D
-```
-
-### Step-by-Step Flow
-
-1. **Legacy Code Analysis** (15 min)
-   - Examine Java 8 codebase
-   - Identify modernization opportunities
-   - Document current patterns
-   - Plan migration strategy
-
-2. **Records Migration** (20 min)
-   - Convert POJOs to records
-   - Update constructors and getters
-   - Refactor equals/hashCode/toString
-   - UI and CLI approaches
-
-3. **Sealed Classes** (15 min)
-   - Identify class hierarchies
-   - Apply sealed class patterns
-   - Update switch expressions
-   - Pattern matching integration
-
-4. **Modern Features** (20 min)
-   - Text blocks for SQL/JSON
-   - Pattern matching for instanceof
-   - Enhanced switch expressions
-   - Stream API improvements
-
-5. **Testing & Validation** (20 min)
-   - Verify functionality
-   - Performance comparison
-   - Code quality metrics
-   - Documentation updates
-
-### Key Bob Features Demonstrated
-- **Large-scale Refactoring**: Multi-file changes
-- **UI + CLI Workflows**: Flexible approaches
-- **Code Modernization**: Language upgrades
-- **Pattern Recognition**: Identifying refactoring opportunities
-- **Best Practices**: Modern Java patterns
-
-## Lab 6: MCP Server & Custom Modes
+- 
+## Lab 4: MCP Server & Custom Modes
 
 ### Learning Objectives
 - Understand Model Context Protocol (MCP)
@@ -530,19 +379,7 @@ graph TB
 - [ ] Code follows JavaScript best practices
 - [ ] User understands translation patterns
 
-### Lab 4: BobShell & CLI
-- [ ] BobShell commands executed successfully
-- [ ] Automation scripts created and tested
-- [ ] CI/CD pipeline integrated
-- [ ] User understands CLI automation
-
-### Lab 5: Java Modernization
-- [ ] Java 8 code modernized to Java 17/21
-- [ ] Records and sealed classes implemented
-- [ ] Modern features applied correctly
-- [ ] User understands both UI and CLI approaches
-
-### Lab 6: MCP Server & Custom Modes
+### Lab 4: MCP Server & Custom Modes
 - [ ] Custom MCP server running
 - [ ] JIRA integration working
 - [ ] Custom mode configured
@@ -556,11 +393,9 @@ graph TB
 
 ### Intermediate Track
 - **Lab 3**: 45 minutes (Code Translation)
-- **Lab 4**: 90 minutes (BobShell & CLI)
 
 ### Advanced Track
-- **Lab 5**: 90 minutes (Java Modernization)
-- **Lab 6**: 110 minutes (MCP Server & Custom Modes)
+- **Lab 4**: 110 minutes (MCP Server & Custom Modes)
 
 **Total**: ~7 hours (including breaks and exploration time)
 
@@ -568,10 +403,9 @@ graph TB
 
 ### Software Requirements
 - **Python 3.8+** (Labs 1, 2, 3)
-- **Node.js 16+** (Labs 1, 3, 6)
-- **Java 17 or 21** (Lab 5)
+- **Node.js 16+** (Labs 1, 3, 4)
 - **Git** (All labs)
-- **Docker** (Lab 6)
+- **Docker** (Lab 4)
 - **Bob installed and configured** (All labs)
 
 ### Knowledge Requirements
@@ -592,34 +426,27 @@ graph LR
     A[Prerequisites] --> B[Lab 1: Building]
     B --> C[Lab 2: Security]
     C --> D[Lab 3: Translation]
-    D --> E[Lab 4: CLI]
-    E --> F[Lab 5: Java]
-    F --> G[Lab 6: MCP]
+    D --> E[Lab 6: MCP]
     
     style A fill:#e1f5ff
     style B fill:#b3e5fc
     style C fill:#b3e5fc
     style D fill:#81d4fa
     style E fill:#81d4fa
-    style F fill:#4fc3f7
-    style G fill:#4fc3f7
 ```
 
 ## Bob Features Coverage
 
 ### Modes
-- **Plan Mode (📝)**: Labs 1, 2, 3, 5
+- **Plan Mode (📝)**: Labs 1, 2, 3
 - **Code Mode (💻)**: All labs
-- **Ask Mode (❓)**: Labs 2, 3, 5
+- **Ask Mode (❓)**: Labs 2, 3
 
 ### Advanced Features
-- **Auto-approvals**: Labs 1, 4
-- **Literate Coding**: Labs 1, 3, 5
-- **MCP Integration**: Labs 1, 6
-- **BobShell CLI**: Lab 4
-- **Custom Modes**: Lab 6
-- **Batch Operations**: Labs 4, 5
-- **CI/CD Integration**: Lab 4
+- **Auto-approvals**: Labs 1
+- **Literate Coding**: Labs 1, 3
+- **MCP Integration**: Labs 1, 4
+- **Custom Modes**: Lab 4
 
 ## Next Steps
 1. ✅ Review architecture with stakeholders
