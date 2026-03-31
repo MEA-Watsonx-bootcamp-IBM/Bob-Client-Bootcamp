@@ -880,4 +880,4 @@ In this lab, you learned:
 
 **Feedback:** Help us improve this lab by sharing your experience and suggestions!
 
-**Congratulations!** You've completed all 6 labs of the Bob Bootcamp. You now have comprehensive knowledge of Bob's capabilities and how to leverage them in your development workflow.
+**Congratulations!** You've completed all 4 labs of the Bob Bootcamp. You now have comprehensive knowledge of Bob's capabilities and how to leverage them in your development workflow.
