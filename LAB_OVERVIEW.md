@@ -30,24 +30,14 @@ graph TB
     Lab3 --> L3B[Learn: Language Patterns]
     Lab3 --> L3C[Learn: Cross-platform]
     
-    Lab4 --> L4A[Learn: CLI Automation]
-    Lab4 --> L4B[Learn: CI/CD]
-    Lab4 --> L4C[Learn: Batch Operations]
-    
-    Lab5 --> L5A[Learn: Refactoring]
-    Lab5 --> L5B[Learn: Modern Java]
-    Lab5 --> L5C[Learn: UI + CLI]
-    
-    Lab6 --> L6A[Learn: MCP Protocol]
-    Lab6 --> L6B[Learn: Custom Modes]
-    Lab6 --> L6C[Learn: Integrations]
+    Lab4 --> L4A[Learn: MCP Protocol]
+    Lab4 --> L4B[Learn: Custom Modes]
+    Lab4 --> L4C[Learn: Integrations]
     
     style Lab1 fill:#b3e5fc
     style Lab2 fill:#b3e5fc
     style Lab3 fill:#81d4fa
-    style Lab4 fill:#81d4fa
-    style Lab5 fill:#4fc3f7
-    style Lab6 fill:#4fc3f7
+    style Lab4 fill:#4fc3f7
     style Complete fill:#e1ffe1
     style Beginner fill:#e1f5ff
     style Intermediate fill:#fff4e1
