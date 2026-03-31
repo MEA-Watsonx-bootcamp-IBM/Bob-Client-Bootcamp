@@ -386,19 +386,22 @@ graph LR
     D --> E[Advanced]
     E --> F[Lab 3: Translation]
     F --> G[Expert]
-    
+    G --> H[Lab 4: MCP Server & Custom Modes]
+    H --> I[Master]
+
     style A fill:#ffcccc
     style C fill:#ffffcc
     style E fill:#ccffcc
     style G fill:#ccccff
+    style I fill:#e6ccff
 ```
 
 ### Bob Mode Mastery
-| Mode | Lab 1 | Lab 2 | Lab 3 | Total Usage |
-|------|-------|-------|-------|-------------|
-| Architect | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | High |
-| Code | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | Very High |
-| Ask | ⭐ | ⭐⭐⭐ | ⭐⭐ | Medium |
+| Mode | Lab 1 | Lab 2 | Lab 3 | Lab 4 | Total Usage |
+|------|-------|-------|-------|-------|-------------|
+| Architect | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | High |
+| Code | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | Very High |
+| Ask | ⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | Medium |
 
 ### Time Investment
 ```
