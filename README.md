@@ -46,7 +46,6 @@ Before starting these labs, ensure you have:
 - **Node.js 14+** - [Download](https://nodejs.org/)
 - **Git 2.x+** - [Download](https://git-scm.com/)
 - **Bob** - Installed and configured
-- **Java 17+** - [Download](https://adoptium.net/) (for Lab 5)
 - **Text Editor/IDE** - VS Code recommended
 
 ### Required Knowledge
