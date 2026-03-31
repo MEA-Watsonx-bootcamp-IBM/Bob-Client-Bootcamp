@@ -9,7 +9,7 @@ In this advanced lab, you'll learn how to extend Bob's capabilities by creating 
 
 **Duration:** 75-90 minutes
 **Difficulty:** Advanced
-**Prerequisites:** Completion of Labs 1-5, understanding of REST APIs, Node.js or Python experience
+**Prerequisites:** Completion of Labs 1-3, understanding of REST APIs, Node.js or Python experience
 
 ## Learning Objectives
 
